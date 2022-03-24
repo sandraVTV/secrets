@@ -1,7 +1,6 @@
 {
   "name": "secrets---starting-code",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +9,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "md5": "^2.3.0",
     "mongoose": "^6.2.8",
-    "mongoose-encryption": "^2.1.2"
-  }
+    "mongoose-encryption": "^2.1.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0",
+    "ts-md5": "^1.2.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandraVTV/secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandraVTV/secrets/issues"
+  },
+  "homepage": "https://github.com/sandraVTV/secrets#readme",
+  "description": ""
 }
